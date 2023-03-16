@@ -1,0 +1,61 @@
+@media screen and (min-width: 576px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+    flex-shrink: 0;
+    box-shadow: 20px 0px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+
+  .mask-title {
+    font-size: 18px;
+  }
+  
+  .mask-subtitle {
+    margin: 10px;
+  }
+
+  .mask-link {
+    padding: 5px 10px;
+  }
+
+  .main-content {
+    flex-grow: 1;
+  }
+
+  .view {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 298px;
+  }
+
+  .view {
+    width: 33.3%;
+  }
+  
+}
+@media screen and (min-width: 1024px) {
+  .mask-title {
+    font-size: 24px;
+  }
+
+  .mask-subtitle {
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  .mask-link {
+    padding: 15px 20px;
+  }
+
+}  
+
